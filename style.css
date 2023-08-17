@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@100;700&family=Koulen&family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background:rgb(232, 227, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    /* position: relative; */
+    width: 100%;
+    height: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 4px black;
+    /* background-color:rebeccapurple; */
+    /* display: grid;
+    margin: 50px;
+    grid-template-columns: 1fr 2fr; */
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+
+.profile{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    /* border-bottom: 5px solid blue ; */
+}
+.profile img{
+    position: relative;
+    width: 290px;
+    height: 350px;
+    box-shadow: 4px 4px 16px rgb(142, 190, 87);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.profile h2{
+    color: ghostwhite;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.profile h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.contactInfo{
+    padding: 10px;
+}
+.title h3{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contactInfo ul{
+    position: relative;
+}
+.contactInfo ul li{
+    position: relative;
+    font-size: 18px;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contactInfo ul li .icon{
+    display: inline-block;
+    width: 30px;
+    margin-top: 10px;
+    margin-left: 5%;
+    font-size: 18px;
+    color:#02319f;
+}
+.contactInfo.education li{
+    margin-bottom: 15px;
+}
+.contactInfo.education li h4{
+    color: #02319f;
+    font-weight: 500;
+}
+.contactInfo.education li h5{
+    color: #fff;
+    font-weight: 500;
+}
+.contactInfo.languaes .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background-color: #081923;
+    display: block;
+    margin-top: 3px;
+    border-radius: 50%;
+}
+.contactInfo.languaes .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: fuchsia;
+    border-radius: 50%;
+
+}
+/* .container .right-side{
+    position: relative;
+    background-color:tan;
+    /* border-radius: 20px; */
+    /* padding: 40px;
+} */ 
+.right-side .about h2{
+    margin-top: 10px;
+    color:gold;
+    font-size: 20px;
+    /* border-bottom: 5px solid red; */
+    width: 37%;
+}
+.right-side .about p{
+    color: #081923;
+    padding: 19px;
+}
+
